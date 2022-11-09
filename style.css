@@ -5,42 +5,38 @@
     margin: 0px;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 header {
+    overflow-x: hidden;
     position: relative;
-    height: 100vh;
     width: 100vw;
-    /* background-image: url(./images/mobile_portrait/ksero-tlo-ekran-glowny.jpg);
-    background-position: center; */
-    background-color: rgb(255, 255, 255);
-
+    background-color: rgb(242, 234, 234);
 }
 
-header .info {
+header img:nth-child(1) {
+    width: 100vw;
+}
+
+.photocopy-machine {
     position: relative;
-    z-index: 4;
-    width: 100vw;
-    height: 50vh;
-    background-color: rgb(255, 255, 255);
+    height: 220px;
+    background-image: url(./images/mobile_portrait/ksero-obraz-header.jpg);
 }
 
-header .info img {
+.photocopy-machine h1 {
     position: absolute;
-
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-header .cover {
-    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(242, 234, 234);
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
     top: 50%;
     left: 50%;
-    transform: scale(110%) translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     width: 100%;
-    height: 150px;
-    background-color: rgba(0, 0, 0, 0.574);
-    z-index: 2;
-    background-image: url(./images/mobile_portrait/pasek-ksero-pod-logo.jpg);
-    background-position: center;
-    background-size: cover;
-
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.603);
 }
