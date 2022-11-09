@@ -9,6 +9,12 @@ html {
     overflow-x: hidden;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* starting from the smallest screen portrait */
+
 header {
     overflow-x: hidden;
     position: relative;
@@ -24,19 +30,55 @@ header img:nth-child(1) {
     position: relative;
     height: 220px;
     background-image: url(./images/mobile_portrait/ksero-obraz-header.jpg);
+    background-size: cover;
 }
 
 .photocopy-machine h1 {
     position: absolute;
-    font-family: 'Montserrat', sans-serif;
     color: rgb(242, 234, 234);
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     letter-spacing: 2px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(0, 0, 0, 0.600);
+}
+
+.contact {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+    width: 100%;
+    letter-spacing: 1px;
+    color: rgb(24, 86, 131)
+}
+
+.contact div {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.contact span {
+    display: inline-block;
+    position: relative;
+    background-color: rgb(24, 86, 131);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transform: translateY(+15%)
+}
+
+.contact i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2rem;
+    color: rgb(252, 197, 80);
 }
