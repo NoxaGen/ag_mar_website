@@ -10,6 +10,7 @@ html {
 }
 
 body {
+
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -18,12 +19,16 @@ body {
 header {
     overflow-x: hidden;
     position: relative;
+    margin-top: 5vh;
     width: 100vw;
     background-color: rgb(255, 255, 255);
 }
 
 header img:nth-child(1) {
-    width: 100vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
 }
 
 .photocopy-machine {
@@ -143,8 +148,6 @@ footer {
     letter-spacing: 1.2px;
 }
 
-
-
 body>footer>p:nth-child(1)>a {
     display: inline-block;
     color: rgb(221, 221, 221);
@@ -152,4 +155,33 @@ body>footer>p:nth-child(1)>a {
     text-decoration: none;
     font-weight: 700;
     font-size: 1.1rem;
+}
+
+/* VERY SMALL PORTRAIT MOBILE-DEVICES (like iphone 5/SE) */
+@media (max-width: 320px) and (orientation: portrait) {
+
+    header {
+        margin-top: 1vh;
+    }
+
+    header img {
+        width: 150px;
+    }
+
+    .photocopy-machine {
+        height: 150px;
+    }
+
+    .photocopy-machine h1 {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+
+    .contact {
+        padding: 15px;
+        font-size: 1.1rem;
+    }
+
+
+
 }
