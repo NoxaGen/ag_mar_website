@@ -19,7 +19,7 @@ header {
     overflow-x: hidden;
     position: relative;
     width: 100vw;
-    background-color: rgb(242, 234, 234);
+    background-color: rgb(255, 255, 255);
 }
 
 header img:nth-child(1) {
