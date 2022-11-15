@@ -60,7 +60,7 @@ header img:nth-child(1) {
 }
 
 .contact div {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
@@ -94,7 +94,37 @@ nav ul {
 }
 
 nav ul div {
+    position: relative;
     width: 100%;
-    height: 100px;
-    background-color: red;
+    height: 120px;
+    padding: 10px;
+
+}
+
+
+
+nav ul div:nth-child(odd) {
+    background-color: rgb(221, 221, 221)
+}
+
+nav ul div:hover {
+    background-color: rgba(24, 86, 131, 0.706)
+}
+
+nav ul div img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+nav ul div h2 {
+    position: absolute;
+    bottom: 1%;
+    font-size: 1.2rem;
+}
+
+nav ul div:hover h2 {
+    color: rgb(252, 197, 80);
+    font-size: 1.3rem;
 }
