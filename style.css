@@ -181,7 +181,11 @@ body>footer>p:nth-child(1)>a {
         padding: 15px;
         font-size: 1.1rem;
     }
+}
 
-
-
+/* HORIZONTAL MOBILE */
+@media (orientation: landscape) {
+    header img {
+        height: 100vh;
+    }
 }
