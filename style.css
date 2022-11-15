@@ -82,3 +82,19 @@ header img:nth-child(1) {
     font-size: 1.2rem;
     color: rgb(252, 197, 80);
 }
+
+nav {
+    width: 100vw;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav ul div {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
