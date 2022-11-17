@@ -30,7 +30,6 @@ header img:nth-child(1) {
     margin-right: auto;
     width: 46vh;
     height: 46vh;
-    border-top: black 1px solid;
     /* 46vh looking good or all phone models  */
 }
 
@@ -56,7 +55,9 @@ header img:nth-child(1) {
 }
 
 .main-info {
-    background-color: rgba(255, 192, 203, 0.596);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     position: relative;
     min-height: 100vh;
 }
@@ -95,6 +96,7 @@ header img:nth-child(1) {
     transform: translate(-50%, -50%);
     font-size: 1.2rem;
     color: rgb(252, 197, 80);
+    flex-grow: 1;
 }
 
 nav {
@@ -155,8 +157,6 @@ footer {
     color: rgb(252, 197, 80);
     text-align: center;
     letter-spacing: 1.2px;
-    border-bottom: white 3px solid;
-
 }
 
 body>footer>p:nth-child(1)>a {
@@ -176,7 +176,6 @@ body>footer>p:nth-child(1)>a {
         width: 100vh;
     }
 }
-
 
 /* VERY SMALL PORTRAIT MOBILE-DEVICES (like iphone 5/SE) */
 @media (max-width: 320px) and (orientation: portrait) {
@@ -199,11 +198,11 @@ body>footer>p:nth-child(1)>a {
     }
 
     .contact {
+
         padding: 15px;
         font-size: 1.1rem;
     }
 }
-
 
 
 /* MEDIUM DEVICES - TABLETS */
