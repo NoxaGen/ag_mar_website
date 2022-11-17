@@ -281,6 +281,17 @@ body>footer>p:nth-child(1)>a {
         height: 33.3vw;
     }
 
+    nav ul div img {
+        width: 160px;
+        height: 160px;
+    }
+
+    nav ul div h2 {
+        width: 95%;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
 }
 
 /* landscape */
