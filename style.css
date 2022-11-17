@@ -133,6 +133,8 @@ nav ul div img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -55%);
+    width: 85px;
+    height: 85px;
 }
 
 nav ul div h2 {
@@ -170,7 +172,6 @@ body>footer>p:nth-child(1)>a {
     font-size: 1.1rem;
 }
 
-/* ZMIENIC FOTO DLA LANDSCAPE KSERA bo mega jakosc w dupe */
 /* HORIZONTAL MOBILE */
 @media (orientation: landscape) {
     header img:nth-child(1) {
@@ -186,6 +187,16 @@ body>footer>p:nth-child(1)>a {
         flex-direction: row;
         padding: 5px;
         height: 80px;
+    }
+
+    nav ul div img {
+        width: 78px;
+        height: 78px;
+    }
+
+    nav ul div h2 {
+        width: 95%;
+        text-align: center;
     }
 
     nav ul {
@@ -220,15 +231,58 @@ body>footer>p:nth-child(1)>a {
     }
 
     .contact {
-
         padding: 15px;
         font-size: 1.1rem;
     }
 }
 
-
 /* MEDIUM DEVICES - TABLETS */
 
 /* portrait first */
 
-@media (min-width: 768px) and (min-height: 768px) {}
+@media (min-width: 768px) and (min-height: 768px) {
+    .photocopy-machine {
+        background-image: url(./images/tablets/ksero-tlo-glowna.jpg);
+        height: 300px;
+    }
+
+    .photocopy-machine h1 {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+
+    .contact {
+        height: 200px;
+        flex-direction: row;
+        padding: 5px;
+        height: 80px;
+    }
+
+    .contact div {
+        font-size: 2rem;
+    }
+
+    .contact span {
+        width: 30px;
+        height: 30px;
+    }
+
+    .contact i {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    nav ul div {
+        width: 33.3vw;
+        height: 33.3vw;
+    }
+
+}
+
+/* landscape */
+
+@media (min-width: 768px) and (min-height: 768px) and (orientation: landscape) {}
