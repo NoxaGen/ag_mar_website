@@ -292,6 +292,15 @@ body>footer>p:nth-child(1)>a {
         font-size: 1.5rem;
     }
 
+    footer p {
+        font-size: 1.5rem;
+    }
+
+    body>footer>p:nth-child(1)>a {
+        font-size: 1.6rem;
+    }
+
+
 }
 
 /* landscape */
