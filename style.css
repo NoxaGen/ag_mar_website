@@ -175,6 +175,26 @@ body>footer>p:nth-child(1)>a {
         height: 100vh;
         width: 100vh;
     }
+
+    .photocopy-machine {
+        background-image: url(./images/mobile_horizontal/ksero-tlo.jpg);
+    }
+
+    .contact {
+        flex-direction: row;
+        padding: 5px;
+        height: 80px;
+    }
+
+    nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    nav ul div {
+        width: 33.3%;
+    }
+
 }
 
 /* VERY SMALL PORTRAIT MOBILE-DEVICES (like iphone 5/SE) */
