@@ -173,6 +173,7 @@ body>footer>p:nth-child(1)>a {
 }
 
 /* HORIZONTAL MOBILE */
+/* phone models i use for tests: iPhone from SE5-6 to the newest models like iPhone Pro Max 12/13+ and bascis resolut */
 @media (orientation: landscape) {
     header img:nth-child(1) {
         height: 100vh;
@@ -237,7 +238,7 @@ body>footer>p:nth-child(1)>a {
 }
 
 /* MEDIUM DEVICES - TABLETS */
-
+/* models of tablets i tested: iPad, iPad Pro, AiriPadOS and basics reso on android */
 /* portrait first */
 
 @media (min-width: 768px) and (min-height: 768px) {
@@ -308,6 +309,7 @@ body>footer>p:nth-child(1)>a {
 }
 
 /* landscape */
+
 
 @media (min-width: 768px) and (min-height: 768px) and (orientation: landscape) {
 
