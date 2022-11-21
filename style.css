@@ -309,8 +309,6 @@ body>footer>p:nth-child(1)>a {
 }
 
 /* landscape */
-
-
 @media (min-width: 768px) and (min-height: 768px) and (orientation: landscape) {
 
     nav>ul>div h2 {
@@ -319,5 +317,125 @@ body>footer>p:nth-child(1)>a {
 
     nav>ul>div:hover h2 {
         font-size: 2.2rem;
+    }
+}
+
+/* big tablets like iPadPro portrait look */
+@media (min-width: 1024px) and (min-height: 1364px) and (orientation: portrait) {
+    .photocopy-machine {
+        height: 450px;
+    }
+
+    .photocopy-machine h1 {
+        padding: 40px;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+    }
+
+    .contact div {
+        font-size: 2.8rem;
+    }
+
+    nav ul div img {
+        width: 180px;
+        height: 180px;
+    }
+
+    nav ul div h2 {
+        font-size: 2rem;
+    }
+
+    footer p {
+        font-size: 1.9rem;
+    }
+
+    body>footer>p:nth-child(1)>a {
+        font-size: 2rem;
+    }
+
+
+}
+
+/* small/avg desktops - testing on laptop with HiDPI */
+
+@media (min-width: 1198px) and (orientation: landscape) {
+    .main-info {
+        position: relative;
+        top: 0vh;
+        flex-wrap: wrap;
+        flex-direction: row;
+        min-height: 25vh;
+        padding-bottom: 0vh;
+    }
+
+    .main-info .contact {
+        position: relative;
+        width: 65vw;
+        font-size: 1.6rem;
+
+    }
+
+    header img:nth-child(1) {
+        width: 30vh;
+        height: 30vh;
+        margin: 0px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .photocopy-machine {
+        width: 65vw;
+        height: 25vh;
+    }
+
+    nav {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 65vw;
+        margin-bottom: 10vh;
+
+    }
+
+    nav ul div {
+        width: calc(65vw/5);
+        height: calc(65vw/5);
+        padding: 0px;
+        transition: 0.5s;
+    }
+
+    nav ul div:hover {
+        cursor: pointer;
+    }
+
+    nav ul div img {
+        width: 60%;
+        height: 60%;
+    }
+
+    nav ul div h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        width: 100%;
+        padding: 0px 5px;
+    }
+
+    nav ul div:hover h2 {
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+
+    .separator {
+        height: 5px;
+    }
+
+    footer {
+        padding: 10px;
     }
 }
