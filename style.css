@@ -371,7 +371,6 @@ body>footer>p:nth-child(1)>a {
     body,
     header {
         background-color: rgba(232, 232, 232, 0.291);
-
     }
 
     .main-info {
@@ -387,7 +386,6 @@ body>footer>p:nth-child(1)>a {
         position: relative;
         width: 65vw;
         font-size: 1.6rem;
-
     }
 
     header img:nth-child(1) {
@@ -408,6 +406,7 @@ body>footer>p:nth-child(1)>a {
         width: 65vw;
         height: 30vh;
         background-image: url(./images/slider_backgrounds/1.jpg);
+        background-position: 35%;
     }
 
     nav {
