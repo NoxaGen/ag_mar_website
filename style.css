@@ -122,11 +122,11 @@ nav ul div {
 
 
 nav ul div:nth-child(odd) {
-    background-color: rgb(221, 221, 221)
+    background-color: rgb(234, 233, 230)
 }
 
 nav ul div:hover {
-    background-color: rgba(24, 86, 131, 0.706)
+    background-color: rgba(47, 131, 191, 0.706)
 }
 
 nav ul div img {
