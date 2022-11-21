@@ -36,7 +36,7 @@ header img:nth-child(1) {
 .photocopy-machine {
     position: relative;
     height: 220px;
-    background-image: url(./images/mobile_portrait/ksero-obraz-header.jpg);
+    background-image: url(./images/slider_backgrounds/1.jpg);
     background-size: cover;
 }
 
@@ -181,7 +181,7 @@ body>footer>p:nth-child(1)>a {
     }
 
     .photocopy-machine {
-        background-image: url(./images/mobile_horizontal/ksero-tlo.jpg);
+        background-image: url(./images/slider_backgrounds/1.jpg);
     }
 
     .contact {
@@ -243,7 +243,7 @@ body>footer>p:nth-child(1)>a {
 
 @media (min-width: 768px) and (min-height: 768px) {
     .photocopy-machine {
-        background-image: url(./images/tablets/ksero-tlo-glowna.jpg);
+        background-image: url(./images/slider_backgrounds/1.jpg);
         height: 300px;
     }
 
@@ -392,7 +392,7 @@ body>footer>p:nth-child(1)>a {
     .photocopy-machine {
         width: 65vw;
         height: 30vh;
-        background-image: url(./images/MDPi_HiDPI/1.jpg);
+        background-image: url(./images/slider_backgrounds/1.jpg);
     }
 
     nav {
