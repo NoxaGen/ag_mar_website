@@ -38,6 +38,7 @@ header img:nth-child(1) {
     height: 220px;
     background-image: url(./images/slider_backgrounds/1.jpg);
     background-size: cover;
+    transition: 1.5s;
 }
 
 .photocopy-machine h1 {
@@ -182,6 +183,7 @@ body>footer>p:nth-child(1)>a {
 
     .photocopy-machine {
         background-image: url(./images/slider_backgrounds/1.jpg);
+        background-position: 20%;
     }
 
     .contact {
@@ -245,6 +247,11 @@ body>footer>p:nth-child(1)>a {
     .photocopy-machine {
         background-image: url(./images/slider_backgrounds/1.jpg);
         height: 300px;
+    }
+
+    header img:nth-child(1) {
+        height: 50vh;
+        width: 50vh;
     }
 
     .photocopy-machine h1 {
@@ -359,6 +366,14 @@ body>footer>p:nth-child(1)>a {
 /* small/avg desktops - testing on laptop with HiDPI */
 
 @media (min-width: 1198px) and (orientation: landscape) {
+
+    .wrapper,
+    body,
+    header {
+        background-color: rgba(232, 232, 232, 0.291);
+
+    }
+
     .main-info {
         position: relative;
         top: 0vh;
