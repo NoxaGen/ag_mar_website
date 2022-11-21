@@ -427,8 +427,7 @@ body>footer>p:nth-child(1)>a {
     }
 
     nav ul div:hover h2 {
-        font-weight: 600;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     .separator {
