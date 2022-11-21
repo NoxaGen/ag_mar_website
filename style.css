@@ -376,8 +376,8 @@ body>footer>p:nth-child(1)>a {
     }
 
     header img:nth-child(1) {
-        width: 30vh;
-        height: 30vh;
+        width: 33vh;
+        height: 33vh;
         margin: 0px;
     }
 
@@ -391,7 +391,8 @@ body>footer>p:nth-child(1)>a {
 
     .photocopy-machine {
         width: 65vw;
-        height: 25vh;
+        height: 30vh;
+        background-image: url(./images/MDPi_HiDPI/1.jpg);
     }
 
     nav {
@@ -436,5 +437,38 @@ body>footer>p:nth-child(1)>a {
 
     footer {
         padding: 10px;
+    }
+}
+
+@media (min-width: 3839.98px) {
+    .main-info header h1 {
+        font-size: 4rem;
+        padding: 25px;
+    }
+
+    header img:nth-child(1) {
+        width: 50vh;
+        height: 50vh;
+    }
+
+    .contact {
+        padding-bottom: 3vh;
+    }
+
+    .contact div {
+        font-size: 4rem;
+    }
+
+    .contact span {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact i {
+        font-size: 4rem;
+    }
+
+    nav ul div h2 {
+        font-size: 3.5rem;
     }
 }
