@@ -10,7 +10,6 @@ html {
 }
 
 body {
-
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -19,9 +18,8 @@ body {
 header {
     overflow-x: hidden;
     position: relative;
-    /* margin-top: 5vh; */
     width: 100vw;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(234, 233, 230);
 }
 
 header img:nth-child(1) {
@@ -53,6 +51,7 @@ header img:nth-child(1) {
     width: 100%;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.600);
+    transition: 1.5s;
 }
 
 .main-info {
@@ -117,16 +116,27 @@ nav ul div {
     width: 100%;
     height: 120px;
     padding: 10px;
-
+    color: rgb(0, 0, 0);
 }
 
-
-nav ul div:nth-child(odd) {
+body>div.wrapper>nav>ul>div:nth-child(odd) {
     background-color: rgb(234, 233, 230)
 }
 
-nav ul div:hover {
+body>div.wrapper>nav>ul>div:hover {
     background-color: rgba(47, 131, 191, 0.706)
+}
+
+body>div.wrapper>nav>ul>div:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+body>div.wrapper>nav>ul>div>a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
 }
 
 nav ul div img {
@@ -142,6 +152,7 @@ nav ul div h2 {
     position: absolute;
     bottom: 1.5%;
     font-size: 1.2rem;
+    color: black;
 }
 
 nav ul div:hover h2 {
