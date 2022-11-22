@@ -13,10 +13,10 @@ function changeSlide() {
     if (counter === 1) {
         h1.textContent = 'Twój punkt ksero w Koninie';
     } else if (counter === 2) {
-        h1.textContent = 'Oprawianie prac dyplomowych';
+        h1.textContent = 'Oprawianie prac dyplomowych oraz wiele innych';
     } else if (counter === 3) {
-        h1.textContent = '20 lat doświadczenia w branży';
+        h1.textContent = 'Posiadamy 20 lat doświadczenia w branży';
     }
 };
 
-setInterval(changeSlide, 3000);
+setInterval(changeSlide, 5000);
