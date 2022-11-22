@@ -54,6 +54,18 @@ header img:nth-child(1) {
     transition: 1.5s;
 }
 
+.fa-map-marker-alt {
+    color: red;
+    font-size: 2rem;
+}
+
+.photocopy-machine h1 a {
+    color: rgb(242, 234, 234);
+    text-decoration: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
 .main-info {
     display: flex;
     flex-direction: column;
@@ -267,9 +279,14 @@ body>footer>p:nth-child(1)>a {
         width: 50vh;
     }
 
-    .photocopy-machine h1 {
+    .photocopy-machine h1,
+    .photocopy-machine h1 a {
         font-size: 2rem;
         letter-spacing: 2px;
+    }
+
+    .fa-map-marker-alt {
+        font-size: 2rem;
     }
 
     .contact {
@@ -346,10 +363,15 @@ body>footer>p:nth-child(1)>a {
         height: 450px;
     }
 
-    .photocopy-machine h1 {
+    .photocopy-machine h1,
+    .photocopy-machine h1 a {
         padding: 40px;
         font-size: 2.5rem;
         letter-spacing: 2px;
+    }
+
+    .fa-map-marker-alt {
+        font-size: 2.5rem;
     }
 
     .contact div {
