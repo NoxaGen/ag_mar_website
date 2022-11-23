@@ -136,3 +136,32 @@ body>footer>p:nth-child(1)>a {
     font-weight: 700;
     font-size: 1.1rem;
 }
+
+@media (orientation: landscape) {
+    header img:nth-child(1) {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    header .cover {
+        height: 50vh;
+    }
+
+    header .cover img {
+        width: 100%;
+        height: 100%;
+    }
+
+    button {
+        height: 4vw;
+    }
+
+    .description,
+    .price-list {
+        padding: 2.5vw;
+    }
+
+    .wiki {
+        padding: 1.25vw;
+    }
+}
