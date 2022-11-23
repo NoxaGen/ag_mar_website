@@ -480,6 +480,10 @@ body>footer>p:nth-child(1)>a {
         font-size: 1.5rem;
     }
 
+    .fa-map-marker-alt {
+        font-size: 2.4rem;
+    }
+
     .separator {
         height: 5px;
     }
@@ -498,6 +502,10 @@ body>footer>p:nth-child(1)>a {
     header img:nth-child(1) {
         width: 50vh;
         height: 50vh;
+    }
+
+    .fa-map-marker-alt {
+        font-size: 4rem;
     }
 
     .contact {
