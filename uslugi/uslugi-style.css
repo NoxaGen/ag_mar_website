@@ -190,4 +190,47 @@ body>footer>p:nth-child(1)>a {
 }
 
 /* big tablets like iPadPro portrait look */
-@media (min-width: 1024px) and (min-height: 1364px) and (orientation: portrait) {}
+@media (min-width: 1024px) and (min-height: 1364px) and (orientation: portrait) {
+    body {
+        min-height: 100vh;
+    }
+
+    header .cover h3 {
+        font-size: 3rem;
+        padding: 20px;
+    }
+
+    .description {
+        font-size: 2.4rem;
+    }
+
+    .price-list div p,
+    .price-list div span {
+        font-size: 2.3rem;
+    }
+
+    button {
+        font-size: 2rem;
+    }
+
+    button i {
+        font-size: 2.3rem;
+    }
+
+    .wiki {
+        font-size: 1.6rem;
+    }
+
+    footer {
+        padding: 3%;
+        font-size: 1.5rem;
+    }
+
+    body>footer>p:nth-child(1)>a {
+        font-size: 1.6rem;
+    }
+
+    .separator {
+        height: 5px;
+    }
+}
