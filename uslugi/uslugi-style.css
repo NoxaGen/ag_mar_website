@@ -234,3 +234,62 @@ body>footer>p:nth-child(1)>a {
         height: 5px;
     }
 }
+
+/* small/avg desktops + large tablets landscape - testing on laptop with HiDPI */
+
+@media (min-width: 1198px) and (orientation: landscape) {
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 65vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    header .cover img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .description {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 65vw;
+        letter-spacing: 2px;
+        line-height: 150%;
+    }
+
+    header .cover h3 {
+        left: 0%;
+        width: 65vw;
+    }
+
+    .price-list {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 65vw;
+    }
+
+    .price-list div {
+        padding: 3px;
+    }
+
+    .wiki {
+        font-size: 1.1rem;
+    }
+
+
+    button {
+        font-size: 1.5rem;
+
+    }
+
+    button i {
+        font-size: 1.7rem;
+    }
+}
+
+poprawic grubosc paska we wszystkich urzadzeniach na SLAJDZIE
