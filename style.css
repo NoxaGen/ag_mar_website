@@ -504,8 +504,13 @@ body>footer>p:nth-child(1)>a {
 
 @media (min-width: 3839.98px) {
     .main-info header h1 {
-        font-size: 4rem;
-        padding: 25px;
+        font-size: 5rem;
+        height: 200px;
+        line-height: 200px;
+    }
+
+    .photocopy-machine>h1 a {
+        font-size: 5rem;
     }
 
     header img:nth-child(1) {
@@ -536,5 +541,14 @@ body>footer>p:nth-child(1)>a {
 
     nav ul div h2 {
         font-size: 3.5rem;
+    }
+
+    footer p {
+        font-size: 3.8rem;
+        padding: 3px;
+    }
+
+    body>footer>p:nth-child(1)>a {
+        font-size: 4rem;
     }
 }

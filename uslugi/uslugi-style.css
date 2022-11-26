@@ -338,3 +338,39 @@ body>footer>p:nth-child(1)>a {
 
 
 }
+
+@media (min-width: 3839.98px) {
+    .cover>h3:nth-child(2) {
+        font-size: 5rem;
+        line-height: 200px;
+        height: 200px;
+    }
+
+    .description {
+        font-size: 4.5rem;
+    }
+
+    .price-list div p,
+    .price-list div span {
+        font-size: 4.5rem;
+        padding: 10px;
+    }
+
+    .wiki {
+        font-size: 2.6rem;
+    }
+
+    button,
+    button i {
+        font-size: 5rem;
+    }
+
+    footer p {
+        font-size: 3.5rem;
+    }
+
+    body>footer>p:nth-child(1)>a {
+        font-size: 3.7rem;
+        padding: 10px;
+    }
+}
