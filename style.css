@@ -49,7 +49,8 @@ header img:nth-child(1) {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    padding: 20px;
+    height: 60px;
+    line-height: 60px;
     background-color: rgba(0, 0, 0, 0.600);
     transition: 1.5s;
 }
@@ -254,7 +255,6 @@ body>footer>p:nth-child(1)>a {
     }
 
     .photocopy-machine h1 {
-        padding: 10px;
         font-size: 1.2rem;
     }
 
@@ -277,6 +277,11 @@ body>footer>p:nth-child(1)>a {
     header img:nth-child(1) {
         height: 50vh;
         width: 50vh;
+    }
+
+    .photocopy-machine h1 {
+        height: 75px;
+        line-height: 75px;
     }
 
     .photocopy-machine h1,
@@ -363,9 +368,13 @@ body>footer>p:nth-child(1)>a {
         height: 450px;
     }
 
+    .photocopy-machine h1 {
+        line-height: 90px;
+        height: 90px;
+    }
+
     .photocopy-machine h1,
     .photocopy-machine h1 a {
-        padding: 40px;
         font-size: 2.5rem;
         letter-spacing: 2px;
     }
