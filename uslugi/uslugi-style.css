@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
+
 }
 
 header {
@@ -30,6 +31,7 @@ header img:nth-child(1) {
 header .cover {
     position: relative;
     width: 100vw;
+    height: 30vh;
     max-height: 30vh;
 }
 
@@ -56,7 +58,7 @@ header .cover h3 {
 }
 
 .description {
-    padding: 5vw;
+    padding: 5vw 5vw;
     line-height: 120%;
     letter-spacing: 1.2px;
     font-size: 1.3rem;
@@ -67,7 +69,7 @@ header .cover h3 {
     flex-direction: column;
     flex-flow: column nowrap;
     width: 100%;
-    padding: 5vw;
+    padding: 5vh 5vw;
 }
 
 .price-list div {
@@ -84,7 +86,7 @@ header .cover h3 {
     font-size: 0.9rem;
     width: 100%;
     text-align: center;
-    padding: 5vw;
+    padding: 5vh 5vw;
 }
 
 .wiki:hover {
@@ -131,12 +133,13 @@ body>button>a {
 }
 
 footer {
-    padding: 3%;
+    padding: 10px;
     background-color: rgb(24, 86, 131);
     font-weight: 400;
     color: rgb(252, 197, 80);
     text-align: center;
     letter-spacing: 1.2px;
+
 }
 
 body>footer>p:nth-child(1)>a {
@@ -182,8 +185,22 @@ body>footer>p:nth-child(1)>a {
         height: 30vh;
     }
 
+    .description {
+        font-size: 2.2rem;
+    }
+
+    .price-list div p,
+    .price-list div span {
+        font-size: 2.2rem;
+    }
+
     header .cover h3 {
         font-size: 2.3rem;
+    }
+
+    button,
+    button i {
+        font-size: 2.5rem;
     }
 
     footer {
@@ -259,6 +276,11 @@ body>footer>p:nth-child(1)>a {
         width: 100%;
         height: 100%;
     }
+
+    header .cover h3 {
+        font-size: 2.3rem;
+    }
+
 
     .description {
         position: relative;
