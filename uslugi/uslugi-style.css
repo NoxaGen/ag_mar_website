@@ -17,6 +17,9 @@ body {
 
 .wrapper {
     min-height: 100vh;
+    width: 100vw;
+    min-width: 100vw;
+    overflow-x: hidden;
 }
 
 header {
@@ -64,7 +67,7 @@ header .cover h3 {
 }
 
 .description {
-    padding: 5vw 5vw;
+    padding: 20px;
     line-height: 120%;
     letter-spacing: 1.2px;
     font-size: 1.3rem;
@@ -75,7 +78,7 @@ header .cover h3 {
     flex-direction: column;
     flex-flow: column nowrap;
     width: 100%;
-    padding: 5vh 5vw;
+    padding: 20px;
 }
 
 .price-list div {
@@ -118,7 +121,6 @@ button:hover {
 button i {
     background-color: rgb(252, 197, 80);
     font-size: 1.6rem;
-
 }
 
 body>.wrapper>button>a {
@@ -289,7 +291,6 @@ body>footer>p:nth-child(1)>a {
         font-size: 2.3rem;
     }
 
-
     .description {
         position: relative;
         left: 50%;
@@ -319,10 +320,8 @@ body>footer>p:nth-child(1)>a {
         font-size: 1.1rem;
     }
 
-
     button {
         font-size: 1.5rem;
-
     }
 
     button i {
@@ -366,8 +365,6 @@ body>footer>p:nth-child(1)>a {
     body>footer>p:nth-child(1)>a {
         font-size: 2rem;
     }
-
-
 }
 
 @media (min-width: 3839.98px) {
