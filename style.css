@@ -177,12 +177,12 @@ nav ul div:hover h2 {
 
 .separator {
     width: 100%;
-    height: 15px;
+    height: 3px;
     background-color: rgba(37, 35, 35);
 }
 
 footer {
-    padding: 3%;
+    padding: 10px;
     background-color: rgb(24, 86, 131);
     font-weight: 400;
     color: rgb(252, 197, 80);
@@ -451,6 +451,14 @@ body>footer>p:nth-child(1)>a {
         height: 30vh;
         background-image: url(./images/slider_backgrounds/1.jpg);
         background-position: 35%;
+    }
+
+    .photocopy-machine h1 {
+        font-size: 2.3rem;
+    }
+
+    .photocopy-machine h1 a {
+        font-size: 2.3rem;
     }
 
     nav {
