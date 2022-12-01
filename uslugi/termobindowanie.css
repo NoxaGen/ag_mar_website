@@ -1,0 +1,5 @@
+@media (min-width: 1198px) and (orientation: landscape) {
+    header .cover img {
+        content: url(./images/oprawa-miekka-termobindowanie-duze.jpg);
+    }
+}
