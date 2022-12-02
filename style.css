@@ -428,7 +428,7 @@ body>footer>p:nth-child(1)>a {
 
     .main-info .contact {
         position: relative;
-        width: 65vw;
+        width: 70vw;
         font-size: 1.6rem;
     }
 
@@ -447,8 +447,8 @@ body>footer>p:nth-child(1)>a {
     }
 
     .photocopy-machine {
-        width: 65vw;
-        height: 30vh;
+        width: 100vw;
+        height: 50vh;
         background-image: url(./images/slider_backgrounds/1.jpg);
         background-position: 35%;
     }

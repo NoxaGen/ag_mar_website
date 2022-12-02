@@ -3,10 +3,6 @@ button {
     margin-bottom: 20px;
 }
 
-/* button i:nth-child(2) {
-    background-color: red;
-} */
-
 .fa-map-marker-alt:nth-child(1) {
     background-color: rgb(243, 234, 234);
     color: red;
