@@ -37,6 +37,10 @@ header img:nth-child(1) {
     height: 30vw;
 }
 
+header img:nth-child(1):hover {
+    cursor: pointer;
+}
+
 header .cover {
     position: relative;
     width: 100vw;
