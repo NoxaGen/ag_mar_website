@@ -18,10 +18,8 @@ function changeSlide() {
     }
     if (screen.width < 1198) {
         slider.style.backgroundImage = `url(./images/slider_backgrounds/${counter}.jpg)`;
-        console.log('working small reso')
     } else if (screen.width >= 1198) {
         slider.style.backgroundImage = `url(./images/slider_backgrounds_big_reso/${counter}.jpg)`;
-        console.log('working big reso')
     }
 };
 
