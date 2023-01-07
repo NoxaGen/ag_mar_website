@@ -1,7 +1,7 @@
 Project description:
 ____________
 
-Welcome in my another project, i decided to build another website for local photocoping company. Website are full in polish language, because we targeting only polish customers from (Greater Poland) and locals.
+Welcome in my another project, i decided to build another website for local photocopying company. Website are full in polish language, because we targeting only polish customers from (Greater Poland) and locals.
 
 You can visit website here:
 www.agmar-ksero.pl
