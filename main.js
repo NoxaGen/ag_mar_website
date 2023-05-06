@@ -24,3 +24,17 @@ function changeSlide() {
 };
 
 setInterval(changeSlide, 5000);
+
+const button = document.querySelector('.show-hours button');
+    const showHours = document.querySelector('.show-hours');
+    const buttonIcon = button.querySelector('i');
+
+    button.addEventListener('click', () => {
+      showHours.classList.toggle('hours-active');
+
+      if (showHours.classList.contains('hours-active')) {
+        buttonIcon.className = 'fas fa-times-circle';
+      } else {
+        buttonIcon.className = 'fas fa-house-user';
+      }
+    });

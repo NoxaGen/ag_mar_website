@@ -14,6 +14,60 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.show-hours{
+    position: fixed;
+    z-index: 15;
+    width: 70vw;
+    height: 60vh;
+    top: 33%;
+    left: 100%;
+    background-color: rgba(180, 238, 255, 0.950);
+    padding: 30px;
+    transition: 1s;
+}
+
+.hours-active{
+    right: 0%;
+    transform: translateX(-100%);
+}
+
+.show-hours button{
+    position: absolute;
+    top: 0%;
+    right: 102%;
+   color: red;
+   border: none;
+   background: none;
+   cursor: pointer;
+   animation: sway 2s infinite;
+}
+
+.show-hours button:active{
+    color: rgb(92, 15, 15);
+}
+
+.show-hours button i{
+    font-size: 4rem;
+}
+
+.show-hours p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: rgb(24, 86, 131)
+}
+
+.show-hours .row{
+    display: flex;
+    width: 100%;;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.show-hours .row span{
+   font-size: 1.3rem;   
+   font-weight: 900;
+}
+
 /* starting from the smallest screen portrait */
 
 header {
@@ -244,6 +298,12 @@ body>footer>p:nth-child(1)>a {
         width: 100vh;
     }
 
+    .show-hours{
+        height: 100vh;
+       top: 50%;
+       }
+    
+
     .photocopy-machine {
         background-image: url(./images/slider_backgrounds/1.jpg);
         background-position: 20%;
@@ -290,6 +350,8 @@ body>footer>p:nth-child(1)>a {
         margin-top: 1vh;
     }
 
+
+
     header img {
         width: 150px;
     }
@@ -317,6 +379,23 @@ body>footer>p:nth-child(1)>a {
         background-image: url(./images/slider_backgrounds/1.jpg);
         height: 300px;
     }
+
+    .show-hours{
+        height: 40vh;
+       top: 50%;
+       }
+       
+       .show-hours button i{
+           font-size: 4.5rem;
+       }
+       
+       .show-hours p{
+           font-size: 3.5rem;
+       }
+       
+       .show-hours .row span{
+          font-size: 2rem;
+       }
 
     header img:nth-child(1) {
         height: 50vh;
@@ -404,6 +483,23 @@ body>footer>p:nth-child(1)>a {
 /* landscape */
 @media (min-width: 768px) and (min-height: 768px) and (orientation: landscape) {
 
+    .show-hours{
+        height: 60vh;
+       top: 50%;
+       }
+       
+       .show-hours button i{
+           font-size: 4rem;
+       }
+       
+       .show-hours p{
+           font-size: 3rem;
+       }
+       
+       .show-hours .row span{
+          font-size: 1.5rem;
+       }
+
     nav>ul>div h2 {
         font-size: 2rem;
     }
@@ -467,6 +563,24 @@ body>footer>p:nth-child(1)>a {
     header {
         background-color: rgba(232, 232, 232, 0.291);
     }
+
+    .show-hours{
+       height: 50vh;
+       top: 60%;
+       width: 30%;
+       }
+       
+       .show-hours button i{
+           font-size: 4.5rem;
+       }
+       
+       .show-hours p{
+           font-size: 3rem;
+       }
+       
+       .show-hours .row span{
+          font-size: 2.2rem;
+       }
 
     .main-info {
         position: relative;
@@ -629,3 +743,15 @@ body>footer>p:nth-child(1)>a {
         font-size: 4rem;
     }
 }
+
+@keyframes sway {
+    0% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(-5px);
+    }
+  }
